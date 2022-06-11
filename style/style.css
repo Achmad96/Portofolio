@@ -58,3 +58,7 @@ div.wrapper > ul.social-media > a{
     font-size: 30px;
     padding: 10px;
 }
+
+div.wrapper > ul.social-media > a:hover{
+    color:rgb(63, 65, 57);
+}
