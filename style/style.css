@@ -2,12 +2,13 @@
     padding: 0;
     margin: 0;
 }
+
 :root{
     --mycolor1: rgba(41, 146, 255, 0.8);
     --mycolor2: rgba(41, 65, 255, 0.8);
 }
 
-div.container{
+div.container {
     display: grid;
     place-items: center;
     width: 100%;
@@ -16,42 +17,43 @@ div.container{
     transition: all .5s ease-in-out;
     
 }
-div.container:hover{
+
+div.container:hover {
     background: var(--mycolor2);
     transition: all .5s ease-in-out;
 }
 
-div.wrapper{
-    justify-content: space-between;
+div.wrapper {
     display: inline;
     align-items: center;
     text-align: center;
-    padding: 20px;
+    width: 70%;
+    height: 70vh;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
-    width: 50%;
-    height: 50vh;
     background-color: white;
     border: solid 0.1px;
+    padding: 20px;
 }
 
 
-div.wrapper > img{
+div.wrapper > img {
     width: 150px;
     height: 150px;
     border-radius: 75px;
     box-shadow: 3px 3px 3px 4px rgba(0, 0, 0, 0.2);
-    margin-bottom: 15px;
+    margin: 15px;
 }
 
-div.wrapper > p{
-    position: relative;
-    text-align: center;
+div.wrapper > p {
     font-size: 20px;
     font-family: monospace;
-    margin-bottom: 50px;
 }
 
-div.wrapper > ul.social-media > a{
+div.wrapper > ul.social-media {
+    margin-top: 20px;
+}
+
+div.wrapper > ul.social-media > a {
     display: inline;
     text-decoration: none;
     color: black;
@@ -59,6 +61,6 @@ div.wrapper > ul.social-media > a{
     padding: 10px;
 }
 
-div.wrapper > ul.social-media > a:hover{
+div.wrapper > ul.social-media > a:hover {
     color:rgb(63, 65, 57);
 }
