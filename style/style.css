@@ -36,7 +36,9 @@
 }
 
 .bottom {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 img {
@@ -58,7 +60,6 @@ p {
 
 ul.social-media > a {
     text-decoration: none;
-    /* color: black; */
     font-size: 30px;
     padding: 10px;
 }
@@ -72,6 +73,7 @@ ul.social-media > a:hover {
     display: inline-block;
     width: 55px;
     height: 30px;
+    margin-top: 15px;
   }
   
   .switch input { 
