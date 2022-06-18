@@ -42,21 +42,6 @@
                 $( "a" ).addClass( "dark" );
             }
         });
-
-        let person = {
-            set name(name){
-                this.username = name;
-            },
-            get name(){
-                return this.username;
-            },
-            sayHello: function(){
-                console.log(`Hello ${this.username}`);
-            }
-        }
-        let {name, sayHello} = person;
-        name = 'Achmad';
-        sayHello();
     </script>
 </body>
 </html>
